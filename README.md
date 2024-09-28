@@ -1,2 +1,2 @@
-# Personal Website \n
+# Personal Website
 Better than before

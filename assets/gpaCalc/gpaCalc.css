@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Black.ttf");
+}
+body{
+    margin: 0;
+    background-color: white;
+}
+#head{
+    background-color: rgba(122,0,25,255);
+}
+.header{
+    font-family: Roboto;
+    background-color: lightgray;
+    border: 2px solid;
+    height: 100%;
+    width: 700px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+#gradebox{
+    border: 2px solid;
+    background-color: lightgray;
+    height: 100%;
+    width: 580px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    height: 100px;
+}
+#submit{
+    font-family: Roboto;
+    margin: auto;
+    display: block;
+    align-items: center;
+    background-color: rgb(83, 176, 219);
+    border-radius: 25px;
+    height: 30px;
+}
+#reset{
+    font-family: Roboto;
+    margin: auto;
+    display: block;
+    align-items: center;
+    background-color: rgb(83, 176, 219);
+    border-radius: 25px;
+    height: 30px;
+}
+#cumGPA{
+    font-family: Roboto;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+}
+#techGPA{
+    font-family: Roboto;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+}
+.gpa{
+    border: 2px solid;
+    background-color: lightgray;
+    visibility: hidden;
+}
+#disclaimer{
+    text-align: center;
+}

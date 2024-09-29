@@ -378,7 +378,7 @@ span {
     margin-left: 72%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .home {
         flex-direction: column;
         align-items: center;

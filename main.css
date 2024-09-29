@@ -14,13 +14,6 @@
     font-family: "IBM";
 }
 
-:root{
-    --bg-color: #080808;
-    --second-bg-color: #131313;
-    --text-color: white;
-    --main-color: #00ffee;
-}
-
 html{
     font-size: 60%;
     overflow-x: hidden;
@@ -434,6 +427,30 @@ span {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.6rem;
+        color: white;
+        font-weight: 800;
+        cursor: pointer;
+        transition: transform 0.8s ease-in-out; 
+    }
+    
+    .logo:hover {
+        transform: scale(1.4); 
+    }
+    
+    .logo span{
+        text-shadow: 0 0 15px #00ffee
+    }
+    
+    .navbar a {
+        font-size: 1.2rem;
+        color: white;
+        margin-left: 4rem;
+        font-weight: 500;
+        transition: color  ease-in-out, border-bottom 0.3s ease-in-out, transform 0.3s ease-in-out;
+        border-bottom: 3px solid transparent;
+    }
     .skill_list {
         display: flex; 
         flex-wrap: wrap; 

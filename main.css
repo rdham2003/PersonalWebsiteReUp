@@ -306,6 +306,13 @@ span {
     padding-right: 3rem;
 }
 
+.proj_img3{
+    float: left;
+    padding-right: 3rem;
+    height: 40vh;
+    width: 60vh;
+}
+
 .proj_title{
     font-weight: bold;
     font-size: 3rem;
